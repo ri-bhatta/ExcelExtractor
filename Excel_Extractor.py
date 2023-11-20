@@ -3668,7 +3668,7 @@ def common_things(home_val):
         for i, value in enumerate(first_column_values):
             if value.startswith('Row '):
                 row_number_x = int(value.split(' ')[1])
-                app_name = first_sheet.cell(row=row_number_x+1, column=5).value
+                app_name = first_sheet.cell(row=row_number_x+1, column=6).value
                 first_column_values[i] = app_name
         
         
